@@ -16,11 +16,11 @@ cssmin = require('gulp-minify-css'),
 
 var path = {
     build: {
-        html: 'build/',
-        js: 'build/js/',
-        css: 'build/css/',
-        img: 'build/img/',
-        fonts: 'build/fonts/'
+        html: 'docs/',
+        js: 'docs/js/',
+        css: 'docs/css/',
+        img: 'docs/img/',
+        fonts: 'docs/fonts/'
     },
     src: {
         html: 'src/*.html',
@@ -36,12 +36,12 @@ var path = {
         img: 'src/img/**/*.*',
         fonts: 'src/fonts/**/*.*'
     },
-    clean: './build'
+    clean: './docs'
 };
 
 var config = {
     server: {
-        baseDir: "./build"
+        baseDir: "./docs"
     },
     host: 'localhost',
     port: 3000,
