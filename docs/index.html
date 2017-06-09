@@ -8,7 +8,6 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Pastry with love</title>
     <!-- Fonts -->
-
     <!-- Bootstrap already here -->
     <link rel="stylesheet" href="css/main.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -25,24 +24,24 @@
             <section class="container">
                 <div class="row">
                     <div class="col-xs-3 col-md-2">
-                        <img src="img/page-logo.png" alt="Gustoso logo" title="Gustoso logo">
+                        <img src="img/page-logo.png" alt="Gustoso logo" title="Gustoso logo" width="140" height="44" width="">
                     </div>
                     <div class="col-xs-1 col-md-8">
-                    <ul class="page-nav__lg">
-                                <li><a href="#">Welcome</a></li>
-                                <li class="tilda">~</li>
-                                <li><a href="#">Menu</a></li>
-                                <li class="tilda">~</li>
-                                <li><a href="#">Reservations</a></li>
-                                <li class="tilda">~</li>
-                                <li><a href="#">News</a></li>
-                                <li class="tilda">~</li>
-                                <li><a href="#">Contact</a></li>
-                            </ul>
+                        <ul class="page-nav__lg">
+                            <li><a class="slowly" href="#promo">Welcome</a></li>
+                            <li class="tilda">~</li>
+                            <li><a href="#">Menu</a></li>
+                            <li class="tilda">~</li>
+                            <li><a href="#">Reservations</a></li>
+                            <li class="tilda">~</li>
+                            <li><a href="#">News</a></li>
+                            <li class="tilda">~</li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
                         <div class="page-nav__wrapper">
-                        <button class="page-nav__close">X</button>
+                            <button class="page-nav__close">X</button>
                             <ul class="page-nav">
-                                <li><a href="#">Welcome</a></li>
+                                <li><a class="slowly" href="#promo">Welcome</a></li>
                                 <li class="tilda">~</li>
                                 <li><a href="#">Menu</a></li>
                                 <li class="tilda">~</li>
@@ -55,7 +54,8 @@
                         </div>
                     </div>
                     <div class="col-xs-8 col-md-2">
-                        <div class="page-header__social"><button class="menu-toggle">|||</button>
+                        <div class="page-header__social">
+                            <button class="menu-toggle">|||</button>
                             <a href=""><img src="img/twitter.png" alt=""></a>
                             <a href=""><img src="img/facebook.png" alt=""></a>
                             <a href=""><img src="img/instagram.png" alt=""></a>
@@ -68,6 +68,31 @@
         <p class="page-header__text">We’re bringing you fresh ingredients every day in ways you can’t resist.</p>
         <a class="page-header__menu">Our menu</a>
     </header>
+    <main class="page-main">
+<!--===========================
+=            Promo            =
+============================-->
+        <section id="promo" class="promo">
+        <div class="promo__line"></div>
+            <div class="container">
+                <div class="row">
+            <div class="col-xs-12 col-md-6">
+<h2 class="promo__heading">Art of cakes</h2>
+<p class="promo__heading-p">we create delicious memories</p>
+<p class="promo__text">Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed.</p>
+<p class="promo__chef">Chef cook</p>
+<div class="promo__chef-block">
+    <span class="promo__chef-name">Benito</span>
+    <span class="promo__chef-img"><img src="img/avatar.jpg" alt=""></span>
+    <span class="promo__chef-surname">Gaspare</span>
+</div>
+            </div>
+            <div class="col-xs-12 col-md-6"></div>
+                </div>
+            </div>
+        </section>
+        <!--====  End of Promo  ====-->
+    </main>
     <!-- Main.js (+jquery, bootstrap) -->
     <script src="js/main.js"></script>
 </body>
