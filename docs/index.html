@@ -70,32 +70,4 @@
     </header>
     <!-- Main.js (+jquery, bootstrap) -->
     <script src="js/main.js"></script>
-    <script>
-    $(document).ready(function() {
-        $('.menu-toggle').click(function(event) {
-            event.preventDefault();
-            $('.page-nav__wrapper').toggleClass('page-nav__wrapper--active');
-        });
-        $('.page-nav__close').click(function(event) {
-            event.preventDefault();
-            $('.page-nav__wrapper').toggleClass('page-nav__wrapper--active');
-        });
-        $('.page-nav__wrapper a').click(function(event) {
-            event.preventDefault();
-            $('.page-nav__wrapper').toggleClass('page-nav__wrapper--active');
-        });
-        $(".slowly").on("click", function(event) {
-            //отменяем стандартную обработку нажатия по ссылке
-            event.preventDefault();
-            //забираем идентификатор бока с атрибута href
-            var id = $(this).attr('href'),
-                //узнаем высоту от начала страницы до блока на который ссылается якорь
-                top = $(id).offset().top;
-            //анимируем переход на расстояние - top за 600 мс
-            $('body,html').animate({
-                scrollTop: top
-            }, 600);
-        });
-    });
-    </script>
 </body>
