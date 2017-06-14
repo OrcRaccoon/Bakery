@@ -30,7 +30,7 @@
                         <ul class="page-nav__lg">
                             <li><a class="slowly" href="#promo">Welcome</a></li>
                             <li class="tilda">~</li>
-                            <li><a href="#">Menu</a></li>
+                            <li><a href="#menu">Menu</a></li>
                             <li class="tilda">~</li>
                             <li><a href="#">Reservations</a></li>
                             <li class="tilda">~</li>
@@ -43,7 +43,7 @@
                             <ul class="page-nav">
                                 <li><a class="slowly" href="#promo">Welcome</a></li>
                                 <li class="tilda">~</li>
-                                <li><a href="#">Menu</a></li>
+                                <li><a href="#menu">Menu</a></li>
                                 <li class="tilda">~</li>
                                 <li><a href="#">Reservations</a></li>
                                 <li class="tilda">~</li>
@@ -94,29 +94,284 @@
                     </div>
                     <div class="col-xs-12 col-md-7 col-lg-6">
                         <section class="promo__slider">
-                            <div class="fotorama" data-loop="true" data-arrows="true" data-click="true" data-fit="cover">
-                                <img src="img/promo1.jpg">
-                                <img src="img/promo2.jpg">
-                                <img src="img/promo3.jpg">
-                                <img src="img/promo4.jpg">
-                                <img src="img/promo5.jpg">
-                                <img src="img/promo6.jpg">
-                                <img src="img/promo7.jpg">
-                                <img src="img/promo8.jpg">
+                            <div class="fotorama__tohide">
+                                <div class="fotorama" data-arrows="always" data-loop="true" data-arrows="true" data-click="true" data-fit="cover">
+                                    <img src="img/promo1.jpg">
+                                    <img src="img/promo2.jpg">
+                                    <img src="img/promo3.jpg">
+                                    <img src="img/promo4.jpg">
+                                    <img src="img/promo5.jpg">
+                                    <img src="img/promo6.jpg">
+                                    <img src="img/promo7.jpg">
+                                    <img src="img/promo8.jpg">
+                                </div>
                             </div>
                         </section>
                         <section class="promo__photos">
-<span><img class="promo__photos-img" src="img/promo1.jpg"></span>
-<span><img class="promo__photos-img" src="img/promo2.jpg"></span>
-<span><img class="promo__photos-img" src="img/promo7.jpg"></span>
-<span><img class="promo__photos-img" src="img/promo4.jpg"></span>
-
+                            <span><img class="promo__photos-img" src="img/promo1.jpg"></span>
+                            <span><img class="promo__photos-img" src="img/promo2.jpg"></span>
+                            <span><img class="promo__photos-img" src="img/promo7.jpg"></span>
+                            <span><img class="promo__photos-img" src="img/promo4.jpg"></span>
                         </section>
                     </div>
                 </div>
             </div>
         </section>
-        <!--====  End of Promo  ====-->
+        <!--==========================
+=            Season          =
+===========================-->
+        <section class="season">
+            <div class="season__wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="season__promise">
+                                <p class="season__promise-time">ready in</p>
+                                <p class="season__promise-number">40</p>
+                                <p class="season__promise-mins">mins</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="season__decor"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-offset-1 col-lg-10">
+                            <div class="fotorama" data-width="100%" data-height="512" data-nav="thumbs" data-loop="true" data-arrows="always" data-click="false" data-fit="cover">
+                                <!-- Season favourite image_1 -->
+                                <div class="season__1" data-thumb="img/pan-prev4.png">
+                                    <div class="bg">
+                                        <div class="bg__left">
+                                            <div class="bg__left-item"></div>
+                                            <div class="bg__left-item"></div>
+                                            <div class="bg__left-item"></div>
+                                            <div class="bg__left-item"></div>
+                                            <div class="bg__left-item"></div>
+                                        </div>
+                                        <div class="bg__right">
+                                            <p class="bg__right-heading">Tasty pancakes </p>
+                                            <p class="bg__right-heading-p">Season favourite</p>
+                                            <p class="bg__right-text">Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.</p>
+                                            <p class="bg__right-text">Help us improve our dishes</p>
+                                            <form class="rateit" action="https://echo.htmlacademy.ru" method="get">
+                                                <fieldset class="rating">
+                                                    <input type="radio" id="star5" name="pancakes" value="5" />
+                                                    <label class="full" for="star5" title="Awesome - 5 stars"></label>
+                                                    <input type="radio" id="star4half" name="pancakes" value="4 and a half" />
+                                                    <label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                                                    <input type="radio" id="star4" name="pancakes" value="4" />
+                                                    <label class="full" for="star4" title="Pretty good - 4 stars"></label>
+                                                    <input type="radio" id="star3half" name="pancakes" value="3 and a half" />
+                                                    <label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                                                    <input type="radio" id="star3" name="pancakes" value="3" />
+                                                    <label class="full" for="star3" title="Meh - 3 stars"></label>
+                                                    <input type="radio" id="star2half" name="pancakes" value="2 and a half" />
+                                                    <label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                                                    <input type="radio" id="star2" name="pancakes" value="2" />
+                                                    <label class="full" for="star2" title="Kinda bad - 2 stars"></label>
+                                                    <input type="radio" id="star1half" name="pancakes" value="1 and a half" />
+                                                    <label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                                                    <input type="radio" id="star1" name="pancakes" value="1" />
+                                                    <label class="full" for="star1" title="Sucks big time - 1 star"></label>
+                                                    <input type="radio" id="starhalf" name="pancakes" value="half" />
+                                                    <label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                                                </fieldset>
+                                                <button class="rating__btn" type="submit">
+                                                <i class="fa fa-thumbs-o-up" aria-hidden="true">Rate it!</i>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Season favourite image_2 -->
+                                <div class="season__2" data-thumb="img/pan-prev1.png">
+                                    <div class="bg">
+                                        <div class="bg__left">
+                                            <div class="bg__left-item"></div>
+                                            <div class="bg__left-item"></div>
+                                            <div class="bg__left-item"></div>
+                                            <div class="bg__left-item"></div>
+                                            <div class="bg__left-item"></div>
+                                        </div>
+                                        <div class="bg__right">
+                                            <p class="bg__right-heading">Delicious sandwiches</p>
+                                            <p class="bg__right-heading-p">Season favourite</p>
+                                            <p class="bg__right-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, reiciendis temporibus asperiores vero impedit cupiditate at tempore alias id perferendis neque minus voluptates quia hic provident aspernatur sed et.</p>
+                                            <p class="bg__right-text">Help us improve our dishes</p>
+                                            <form class="rateit" action="https://echo.htmlacademy.ru" method="get">
+                                                <fieldset class="rating">
+                                                    <input type="radio" id="star55" name="sandwiches" value="5" />
+                                                    <label class="full" for="star55" title="Awesome - 5 stars"></label>
+                                                    <input type="radio" id="star44half" name="sandwiches" value="4 and a half" />
+                                                    <label class="half" for="star44half" title="Pretty good - 4.5 stars"></label>
+                                                    <input type="radio" id="star44" name="sandwiches" value="4" />
+                                                    <label class="full" for="star44" title="Pretty good - 4 stars"></label>
+                                                    <input type="radio" id="star33half" name="sandwiches" value="3 and a half" />
+                                                    <label class="half" for="star33half" title="Meh - 3.5 stars"></label>
+                                                    <input type="radio" id="star33" name="sandwiches" value="3" />
+                                                    <label class="full" for="star33" title="Meh - 3 stars"></label>
+                                                    <input type="radio" id="star22half" name="sandwiches" value="2 and a half" />
+                                                    <label class="half" for="star22half" title="Kinda bad - 2.5 stars"></label>
+                                                    <input type="radio" id="star22" name="sandwiches" value="2" />
+                                                    <label class="full" for="star22" title="Kinda bad - 2 stars"></label>
+                                                    <input type="radio" id="star11half" name="sandwiches" value="1 and a half" />
+                                                    <label class="half" for="star11half" title="Meh - 1.5 stars"></label>
+                                                    <input type="radio" id="star11" name="sandwiches" value="1" />
+                                                    <label class="full" for="star11" title="Sucks big time - 1 star"></label>
+                                                    <input type="radio" id="starhallf" name="sandwiches" value="half" />
+                                                    <label class="half" for="starhallf" title="Sucks big time - 0.5 stars"></label>
+                                                </fieldset>
+                                                <button class="rating__btn" type="submit">
+                                                <i class="fa fa-thumbs-o-up" aria-hidden="true">Rate it!</i>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Season favourite image_3 -->
+                                <div class="season__3" data-thumb="img/pann-full-3.jpg">
+                                    <div class="bg">
+                                        <div class="bg__left">
+                                            <div class="bg__left-item"></div>
+                                            <div class="bg__left-item"></div>
+                                            <div class="bg__left-item"></div>
+                                            <div class="bg__left-item"></div>
+                                            <div class="bg__left-item"></div>
+                                        </div>
+                                        <div class="bg__right">
+                                            <p class="bg__right-heading">Fresh salads</p>
+                                            <p class="bg__right-heading-p">Season favourite</p>
+                                            <p class="bg__right-text">Sed eleifend patrioque eu. Ea habemus corpora eam, civibus propriae eos no. Meliore iudicabit definitiones usu an, quo id vidisse bonorum delicata, case admodum maiorum eu nam. Pri sumo fierent et. Eu nonumy euripidis sit, nominati philosophia mei te, reque appareat cum ne. Cu duo facer putant mnesarchum.</p>
+                                            <p class="bg__right-text">Help us improve our dishes</p>
+                                            <form class="rateit" action="https://echo.htmlacademy.ru" method="get">
+                                                <fieldset class="rating">
+                                                    <input type="radio" id="star555" name="salads" value="5" />
+                                                    <label class="full" for="star555" title="Awesome - 5 stars"></label>
+                                                    <input type="radio" id="star444half" name="salads" value="4 and a half" />
+                                                    <label class="half" for="star444half" title="Pretty good - 4.5 stars"></label>
+                                                    <input type="radio" id="star444" name="salads" value="4" />
+                                                    <label class="full" for="star444" title="Pretty good - 4 stars"></label>
+                                                    <input type="radio" id="star333half" name="salads" value="3 and a half" />
+                                                    <label class="half" for="star333half" title="Meh - 3.5 stars"></label>
+                                                    <input type="radio" id="star333" name="salads" value="3" />
+                                                    <label class="full" for="star333" title="Meh - 3 stars"></label>
+                                                    <input type="radio" id="star222half" name="salads" value="2 and a half" />
+                                                    <label class="half" for="star222half" title="Kinda bad - 2.5 stars"></label>
+                                                    <input type="radio" id="star222" name="salads" value="2" />
+                                                    <label class="full" for="star222" title="Kinda bad - 2 stars"></label>
+                                                    <input type="radio" id="star111half" name="salads" value="1 and a half" />
+                                                    <label class="half" for="star111half" title="Meh - 1.5 stars"></label>
+                                                    <input type="radio" id="star111" name="salads" value="1" />
+                                                    <label class="full" for="star111" title="Sucks big time - 1 star"></label>
+                                                    <input type="radio" id="starhalllf" name="salads" value="half" />
+                                                    <label class="half" for="starhalllf" title="Sucks big time - 0.5 stars"></label>
+                                                </fieldset>
+                                                <button class="rating__btn" type="submit">
+                                                <i class="fa fa-thumbs-o-up" aria-hidden="true">Rate it!</i>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Season favorite image_4 -->
+                                <div class="season__4" data-thumb="img/pann-full-2.jpg">
+                                    <div class="bg">
+                                        <div class="bg__left">
+                                            <div class="bg__left-item"></div>
+                                            <div class="bg__left-item"></div>
+                                            <div class="bg__left-item"></div>
+                                            <div class="bg__left-item"></div>
+                                            <div class="bg__left-item"></div>
+                                        </div>
+                                        <div class="bg__right">
+                                            <p class="bg__right-heading">Fruits from local farmers</p>
+                                            <p class="bg__right-heading-p">Season favourite</p>
+                                            <p class="bg__right-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, reiciendis temporibus asperiores vero impedit cupiditate at tempore alias id perferendis neque minus voluptates quia hic provident aspernatur sed et.</p>
+                                            <p class="bg__right-text">Help us improve our dishes</p>
+                                            <form class="rateit" action="https://echo.htmlacademy.ru" method="get">
+                                                <fieldset class="rating">
+                                                    <input type="radio" id="star5555" name="pancakes" value="5" />
+                                                    <label class="full" for="star5555" title="Awesome - 5 stars"></label>
+                                                    <input type="radio" id="star4444half" name="pancakes" value="4 and a half" />
+                                                    <label class="half" for="star4444half" title="Pretty good - 4.5 stars"></label>
+                                                    <input type="radio" id="star4444" name="pancakes" value="4" />
+                                                    <label class="full" for="star4444" title="Pretty good - 4 stars"></label>
+                                                    <input type="radio" id="star3333half" name="pancakes" value="3 and a half" />
+                                                    <label class="half" for="star3333half" title="Meh - 3.5 stars"></label>
+                                                    <input type="radio" id="star3333" name="pancakes" value="3" />
+                                                    <label class="full" for="star3333" title="Meh - 3 stars"></label>
+                                                    <input type="radio" id="star2222half" name="pancakes" value="2 and a half" />
+                                                    <label class="half" for="star2222half" title="Kinda bad - 2.5 stars"></label>
+                                                    <input type="radio" id="star2222" name="pancakes" value="2" />
+                                                    <label class="full" for="star2222" title="Kinda bad - 2 stars"></label>
+                                                    <input type="radio" id="star1111half" name="pancakes" value="1 and a half" />
+                                                    <label class="half" for="star1111half" title="Meh - 1.5 stars"></label>
+                                                    <input type="radio" id="star1111" name="pancakes" value="1" />
+                                                    <label class="full" for="star1111" title="Sucks big time - 1 star"></label>
+                                                    <input type="radio" id="starhallllf" name="pancakes" value="half" />
+                                                    <label class="half" for="starhallllf" title="Sucks big time - 0.5 stars"></label>
+                                                </fieldset>
+                                                <button class="rating__btn" type="submit">
+                                                <i class="fa fa-thumbs-o-up" aria-hidden="true">Rate it!</i>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Season favorite image_5 -->
+                                <div class="season__5" data-thumb="img/pann-full-5.jpg">
+                                    <div class="bg">
+                                        <div class="bg__left">
+                                            <div class="bg__left-item"></div>
+                                            <div class="bg__left-item"></div>
+                                            <div class="bg__left-item"></div>
+                                            <div class="bg__left-item"></div>
+                                            <div class="bg__left-item"></div>
+                                        </div>
+                                        <div class="bg__right">
+                                            <p class="bg__right-heading">Blueberry muffins</p>
+                                            <p class="bg__right-heading-p">Season favourite</p>
+                                            <p class="bg__right-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, reiciendis temporibus asperiores vero impedit cupiditate at tempore alias id perferendis neque minus voluptates quia hic provident aspernatur sed et.</p>
+                                            <p class="bg__right-text">Help us improve our dishes</p>
+                                            <form class="rateit" action="https://echo.htmlacademy.ru" method="get">
+                                                <fieldset class="rating">
+                                                    <input type="radio" id="star55555" name="pancakes" value="5" />
+                                                    <label class="full" for="star55555" title="Awesome - 5 stars"></label>
+                                                    <input type="radio" id="star44444half" name="pancakes" value="4 and a half" />
+                                                    <label class="half" for="star44444half" title="Pretty good - 4.5 stars"></label>
+                                                    <input type="radio" id="star44444" name="pancakes" value="4" />
+                                                    <label class="full" for="star44444" title="Pretty good - 4 stars"></label>
+                                                    <input type="radio" id="star33333half" name="pancakes" value="3 and a half" />
+                                                    <label class="half" for="star33333half" title="Meh - 3.5 stars"></label>
+                                                    <input type="radio" id="star33333" name="pancakes" value="3" />
+                                                    <label class="full" for="star33333" title="Meh - 3 stars"></label>
+                                                    <input type="radio" id="star22222half" name="pancakes" value="2 and a half" />
+                                                    <label class="half" for="star22222half" title="Kinda bad - 2.5 stars"></label>
+                                                    <input type="radio" id="star22222" name="pancakes" value="2" />
+                                                    <label class="full" for="star22222" title="Kinda bad - 2 stars"></label>
+                                                    <input type="radio" id="star11111half" name="pancakes" value="1 and a half" />
+                                                    <label class="half" for="star11111half" title="Meh - 1.5 stars"></label>
+                                                    <input type="radio" id="star11111" name="pancakes" value="1" />
+                                                    <label class="full" for="star11111" title="Sucks big time - 1 star"></label>
+                                                    <input type="radio" id="starhalllllf" name="pancakes" value="half" />
+                                                    <label class="half" for="starhalllllf" title="Sucks big time - 0.5 stars"></label>
+                                                </fieldset>
+                                                <button class="rating__btn" type="submit">
+                                                <i class="fa fa-thumbs-o-up" aria-hidden="true">Rate it!</i>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--====  End of Season  ====-->
     </main>
     <!-- Main.js (+jquery, bootstrap) -->
     <script src="js/main.js"></script>
